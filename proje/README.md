@@ -3,11 +3,8 @@
 ## Proje Adı
 Kişisel Web Sayfası (Bulut Bilişim Dersi Ödevi-2)
 
-## Öğrenci Adı - Öğrenci Numera
+## Öğrenci Adı
 Sara Ebrahimi - 22331817 
-
-##Not: Bu proje, hocanın isteğine ek olarak React kullanılarak geliştirildiği için, hocanın taleplerine uygun ayrı bir projeyi de bu projenin içinde proje dizininde hazırlamaya karar verdim. Bu nedenle ilgili dizinde açıklamalar ve oldukça basit bir Dockerfile ile birlikte sade bir tasarım bulunmaktadır. Ayrıca proje kök dizininde, açıklamalar ve Dockerfile (Nginx web proxy yapılandırması dahil) ile birlikte React kullanılarak hazırlanmış daha gelişmiş bir tasarım da yer almaktadır. Kısacası, bu projede iki farklı tasarım ve iki farklı seviyede Dockerfile yapısı bulabilirsiniz.
-
 
 ## Kullanılan Teknolojiler
 - HTML5 & CSS3 (Projenin statik ana iskeleti)
