@@ -7,8 +7,10 @@ Kişisel Web Sayfası (Bulut Bilişim Dersi Ödevi-2)
 Sara Ebrahimi - 22331817 
 
 ## Not: Bu proje, hocanın isteğine ek olarak React kullanılarak geliştirildiği için, hocanın taleplerine uygun ayrı bir projeyi de bu projenin içinde proje dizininde hazırlamaya karar verdim. Bu nedenle ilgili dizinde açıklamalar ve oldukça basit bir Dockerfile ile birlikte sade bir tasarım bulunmaktadır. Ayrıca proje kök dizininde, açıklamalar ve Dockerfile (Nginx web proxy yapılandırması dahil) ile birlikte React kullanılarak hazırlanmış daha gelişmiş bir tasarım da yer almaktadır. Kısacası, bu projede iki farklı tasarım ve iki farklı seviyede Dockerfile yapısı bulabilirsiniz.
+
 basit design(/proje directory):
 <img width="1920" height="1080" alt="BulutBili-imDersi_-dev2-vanilaHTML-CSS" src="https://github.com/user-attachments/assets/90ea090a-0565-4490-81eb-7118d7b27016" />
+
 
 ## Kullanılan Teknolojiler
 - HTML5 & CSS3 (Projenin statik ana iskeleti)
@@ -21,6 +23,7 @@ basit design(/proje directory):
 ```bash
 docker build -t webproje .
 ```
+
 <img width="1671" height="595" alt="build-docker" src="https://github.com/user-attachments/assets/a551edf8-e2be-4e2c-9fe7-a5cf343edf96" />
 
 
@@ -28,14 +31,17 @@ Docker container'ını arka planda (detached mode) çalıştırmak ve 8080 portu
 ```bash
 docker run -d -p 8080:80 webproje
 ```
+
 <img width="685" height="47" alt="run-docker" src="https://github.com/user-attachments/assets/5be59c66-88cb-4246-9d65-49b32b29f734" />
 <img width="1270" height="89" alt="BulutBili-imDersi_-dev2-dockerfiletest" src="https://github.com/user-attachments/assets/cbd1dc68-3d2b-4027-8c04-90759b27cfb6" />
 
 
 Container çalıştıktan sonra web sayfasına tarayıcınızdan şu linke giderek ulaşabilirsiniz: 
 [http://localhost:8080](http://localhost:8080):
+
 react tasarim:
 <img width="1920" height="1080" alt="BulutBili-imDersi_-dev2-React" src="https://github.com/user-attachments/assets/d6c91004-cd54-42ff-b7bb-786c24cdadf8" />
+
 
 ## Proje Mimarisi ve Çalışma Mantığı
 Bu teslim edilen proje (`proje` klasörü içindeki dosyalar), **HTML5** ve **CSS3** ile geliştirilmiş saf, statik web teknolojilerini içermektedir. HTML dosyası (`index.html`) web sayfasının iskeletini ve içeriğini barındırırken, CSS dosyası (`style.css`) görsel tasarımını yönetmektedir.
