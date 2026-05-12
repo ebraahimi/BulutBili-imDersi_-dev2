@@ -33,7 +33,7 @@ docker run -d -p 8080:80 webproje
 ```
 
 <img width="685" height="47" alt="run-docker" src="https://github.com/user-attachments/assets/5be59c66-88cb-4246-9d65-49b32b29f734" />
-<img width="1270" height="89" alt="BulutBili-imDersi_-dev2-dockerfiletest" src="https://github.com/user-attachments/assets/cbd1dc68-3d2b-4027-8c04-90759b27cfb6" />
+<img width="1270" height="67" alt="BulutBili-imDersi_-dev2-dockerfiletest" src="https://github.com/user-attachments/assets/cbd1dc68-3d2b-4027-8c04-90759b27cfb6" />
 
 
 Container çalıştıktan sonra web sayfasına tarayıcınızdan şu linke giderek ulaşabilirsiniz: 
